@@ -1,0 +1,26 @@
+--和Action相关的代码
+
+--<示例代码>
+-- AddAction("MOD_ACTION", STRINGS.ACTIONS.MOD_ACTION, function(act)
+-- 	if act.target.prefab == "genesis_blue_cotton_candy_tree" and act.invobject.components.genesis_fillable then
+-- 		if act.invobject:HasTag("filled_with_moon_water") then
+-- 			act.target:StartGrow()
+-- 			act.invobject.components.finiteuses:Use(25)
+-- 			return true
+-- 		else
+-- 			if act.doer.components.talker then
+-- 				act.doer.components.talker:Say(STRINGS.FAILD_POUR_BLUE_COTTON_CANDY_TREE)
+-- 			end
+-- 			return true
+-- 		end
+-- 	else
+-- 		return false
+-- 	end
+-- end)
+-- AddStategraphActionHandler("wilson", ActionHandler(ACTIONS.MOD_ACTION, "pour"))
+-- AddStategraphActionHandler("wilson_client", ActionHandler(ACTIONS.MOD_ACTION, "pour"))
+
+-- AddComponentAction("USEITEM", "components", function(inst, doer, target, actions, right)
+-- end)
+-- AddComponentAction("EQUIPPED", "components", function(inst, doer, target, actions, right)
+-- end)

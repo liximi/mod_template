@@ -1,0 +1,5 @@
+-- GLOBAL.setmetatable(env, {__index=function(t,k) return GLOBAL.rawget(GLOBAL,k) end})
+-- require("map/tasks")
+-- require("map/lockandkey")
+-- local rooms = require("map/rooms")
+-- 地图教程 https://atjiu.github.io/dstmod-tutorial/#/map

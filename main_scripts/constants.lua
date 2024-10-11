@@ -1,0 +1,4 @@
+--全局常量
+_G.MY_MOD_CONSTANTS = {
+	RPC_NAMESPACE = "MY_MOD",
+}
